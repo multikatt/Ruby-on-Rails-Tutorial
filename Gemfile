@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
-gem 'sqlite3-ruby', '1.3.3', :require => 'sqlite3'
+#gem 'sqlite3-ruby', '1.3.3', :require => 'sqlite3'
+gem 'pg'
 
 group :development do
   gem 'rspec-rails', '2.7.0'
